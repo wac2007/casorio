@@ -1,6 +1,6 @@
-# casorio
+# Casório
 
-> This is description
+> Source code of wedding site amandinhaewac.com
 
 ## How to install
 
