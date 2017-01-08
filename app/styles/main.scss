@@ -20,6 +20,7 @@ main {
   section {
     text-align: center;
     padding: 20px;
+    font-size: 1.2em;
     h2 {
       font-weight: bold;
       // font-family: 'Marck Script', cursive;
@@ -29,7 +30,7 @@ main {
       margin-bottom: 20px;
     }
     .btn {
-      line-height: 2.4em;
+      line-height: 2.5em;
       font-size: 1.3em;
       &.btn-spaced {
         margin-top: 20px;
