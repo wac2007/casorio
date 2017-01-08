@@ -1,0 +1,15 @@
+{
+  "generator-lb": {
+    "version": "4.0.1",
+    "name": "casorio",
+    "features": [
+      "includeFEFramework",
+      "includeModernizr",
+      "includejQuery"
+    ],
+    "jQuery": "includejQuery3",
+    "feFramework": "includeBootstrap",
+    "multiLanguage": false,
+    "dataFormat": "json"
+  }
+}

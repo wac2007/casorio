@@ -1,0 +1,73 @@
+$icon-font-path: "../../node_modules/bootstrap-sass/assets/fonts/bootstrap/";
+
+
+
+@import "_variables.scss";
+@import "bootstrap-sass/assets/stylesheets/_bootstrap";
+@import "_fonts.scss";
+@import "_modules.scss";
+
+html, body, main {
+  width: 100%;
+  height: 100%;
+}
+
+h1 {
+  display: none;
+}
+
+main {
+  section {
+    text-align: center;
+    padding: 20px;
+    h2 {
+      font-weight: bold;
+      // font-family: 'Marck Script', cursive;
+      // font-family: 'Yesteryear', cursive;
+      // font-family: 'Kaushan Script', cursive;
+      font-family: "Back to Black";
+      margin-bottom: 20px;
+    }
+    .btn {
+      line-height: 2.4em;
+      font-size: 1.3em;
+      &.btn-spaced {
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+    }
+    .sitio-logo {
+      max-width: 50%;
+      max-height: 50%;
+      margin: auto;
+    }
+  }
+
+  .stores {
+    .row {
+      padding-top: 30px;
+    }
+    img {
+      max-width: 150px;
+      max-height: 150px;
+    }
+  }
+}
+
+mark {
+  color: $main-text-color;
+  background: transparent;
+  font-weight: bold;
+}
+
+// .mark-script {
+//   font-family: 'Marck Script', cursive;
+// }
+
+// .yesteryear {
+//   font-family: 'Yesteryear', cursive;
+// }
+
+// .kaushan-script {
+//   font-family: 'Kaushan Script', cursive;
+// }
