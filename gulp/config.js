@@ -13,7 +13,7 @@ module.exports.sourceMaps = process.env.SOURCEMAPS || true;
 // Default paths
 var app = 'app';
 var tmp = '.tmp';
-var dist = 'dist';
+var dist = 'docs';
 var nodeDir = 'node_modules';
 
 // Default paths in app folder
