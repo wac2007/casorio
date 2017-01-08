@@ -15,5 +15,6 @@ import {} from './external/jquery';
 // Or import everything
 import {} from 'bootstrap-sass'; // eslint-disable-line import/imports-first
 import { sayHello } from './modules/utils';
+import {} from './plugins/fb-plugin';
 
 sayHello();
