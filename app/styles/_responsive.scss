@@ -1,0 +1,57 @@
+/* Large devices only (large desktops) */
+@media (min-width: 1200px) {
+
+}
+/* Medium devices and below (small desktops) */
+@media (max-width: 1200px) { 
+
+}
+/* Medium devices only (small desktops) */
+@media (max-width: 1200px) and (min-width: 992px) { 
+
+}
+/* Small devices and below (tablets) */
+@media (max-width: 992px) { 
+    .stores {
+        .col-md-3:not(:last-child) img {
+            margin-bottom: 25px;
+        }
+    }
+}
+/* Small devices only (tablets) */
+@media (min-width: 768px) and (max-width: 992px) { 
+    
+}
+/* Only extra small devices (phones) */
+@media (max-width: 768px) {
+    .banner {
+        background: url("/images/photos/cover2.jpg");
+        background-size: cover;
+        background-position: center middle;
+        background-repeat: no-repeat;
+        &:after {
+            content: '';
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, .30);
+            position: absolute;
+            left: 0;
+            top: 0;
+            z-index: 1;
+        }
+
+        .logo {
+            max-width: 90%;
+            max-height: 90%;
+            margin: auto;
+            z-index: 2;
+            position: absolute;
+            left: 0;
+            top: 1%;
+        }
+    } 
+
+    main section .btn {
+        font-size: 1em;
+    }
+}

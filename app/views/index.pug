@@ -4,38 +4,45 @@ block content
   include modules/_banner.pug
   section
     h2 Quando?
-    p Nosso casamento é em breve e você é parte integrante deste evento!
-    p Então já reseve na agenda, <mark>dia 10 de Junho de 2017</mark> é o nosso grande dia.
-    - var calendarLink = "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Casamento+Amandinha+e+Wac&dates=20170610T160000/20170610T200000&details=Mais+informações+em:+http://www.amandinhaewac.com&location=Estr.+Caetano+Monteiro,+870+Badu,+Niterói+RJ&sf=true&output=xml&ctz=America/Sao_Paulo";
-    a(href=calendarLink, class="btn btn-primary btn-spaced", target="_blank") Adicionar ao Google Calendar
+    div(class="row")
+      div(class="col-md-12")
+        p Nosso casamento é em breve e você é parte integrante deste evento!
+        p Então já reseve na agenda, <mark>dia 10 de Junho de 2017</mark> é o nosso grande dia.
+        - var calendarLink = "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Casamento+Amandinha+e+Wac&dates=20170610T160000/20170610T200000&details=Mais+informações+em:+http://www.amandinhaewac.com&location=Estr.+Caetano+Monteiro,+870+Badu,+Niterói+RJ&sf=true&output=xml&ctz=America/Sao_Paulo";
+        a(href=calendarLink, class="btn btn-primary btn-spaced", target="_blank") Adicionar ao Google Calendar
 
   section
     h2 Onde?
     div(class="row")
-      div(class="col-md-6 text-right")
+      div(class="col-md-12")
         h4 Sítio Uma Casa no Campo
         p Estrada Caetano Monteiro, 870 <br/> Pendotiba, Niterói, RJ </br> 24756-000
         - var mapLink = "geo:-22.901694,-43.043247?q=-22.901694,-43.043247(Uma+Casa+no+Campo)";
-        a(href=mapLink, class="btn btn-primary btn-spaced", target="_blank") Navegar pelo GPS
+        a(href=mapLink, class="btn btn-primary btn-spaced visible-xs", target="_blank") Navegar pelo GPS
         
-      div(class="col-md-6")
+      div(class="col-md-8 col-md-offset-2")
         iframe(src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.3039008022565!2d-43.04412508419692!3d-22.90215907735543!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9985a37b1ce1e7%3A0x750b2102d2f82e03!2sEstr.+Caetano+Monteiro%2C+870+-+Badu%2C+Niter%C3%B3i+-+RJ!5e0!3m2!1spt-BR!2sbr!4v1473635614604", width="100%", height="400", frameborder="0", style="border:0", allowfullscreen="")
   
   section(class="stores")
     h2 Listas
     p Fizemos uma seleção bacana de coisas que gostaríamos de ganhar.
-    p Comprando pelo site, você não tem preocupação em transportar os presentes pois <mark>serão entregues em nossa casinha :D</mark>
+    p Comprando pelo site, você não tem preocupação em transportar os presentes pois <mark>serão entregues na nossa casa! ;)</mark>
     div(class="row")
-      div(class="col-md-4")
+      div(class="col-xs-6 col-md-3")
         a(href="https://listadecasamento.americanas.com.br/pages/HomePage/", target="_blank")
           img(src="images/stores/americanas.png")
-      div(class="col-md-4")
+      div(class="col-xs-6 col-md-3")
         a(href="http://www.pontofrio.com.br/lista-de-casamento/home.aspx", target="_blank")
           img(src="images/stores/ponto-frio.png")
-      div(class="col-md-4")
-        a(href="http://localhost/casorio/wp-content/uploads/2016/09/camicado.png", target="_blank")
+      div(class="col-xs-6 col-md-3")
+        a(href="http://www.camicado.com.br/WeddingList?idWeddingListType=1", target="_blank")
           img(src="images/stores/camicado.png")
+      div(class="col-xs-6 col-md-3")
+        a(href="http://www.polishop.com.br/list/amandinhaewac", target="_blank")
+          img(src="images/stores/polishop.jpg")
 
+    div(class="clearfix margin-top")
+        p Para acessar a lista, procure pelos noivos <mark>Amanda Marins</mark> e <mark>Wallace Almeida</mark> no dia <mark>10/06/2017</mark>.
   section
     h2 Padrinhos
     p Em breve! :)
@@ -48,4 +55,6 @@ block content
   section
     h2 Deixe um comentário
     p Deixe uma mensagem pra gente! :)
-    div(class="fb-comments", data-href="http://amandinhaewac.com", data-numposts="10")
+    div(class="row")
+      div(class="col-xs-12 col-md-8 col-md-offset-2")
+        div(class="fb-comments", data-href="http://amandinhaewac.com", data-numposts="10", data-width="100%")

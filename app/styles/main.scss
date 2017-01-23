@@ -1,7 +1,5 @@
 $icon-font-path: "../../node_modules/bootstrap-sass/assets/fonts/bootstrap/";
 
-
-
 @import "_variables.scss";
 @import "bootstrap-sass/assets/stylesheets/_bootstrap";
 @import "_fonts.scss";
@@ -61,6 +59,10 @@ mark {
   font-weight: bold;
 }
 
+.margin-top {
+  margin-top: 30px;
+}
+
 // .mark-script {
 //   font-family: 'Marck Script', cursive;
 // }
@@ -72,3 +74,10 @@ mark {
 // .kaushan-script {
 //   font-family: 'Kaushan Script', cursive;
 // }
+
+
+.fb-comments {
+  max-width: 100%;
+}
+
+@import "_responsive";
