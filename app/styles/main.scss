@@ -51,6 +51,23 @@ main {
       max-height: 150px;
     }
   }
+
+  .padrinhos {
+    p {
+      font-family: "Back to Black";
+      padding: 5px 0;
+    }
+    img {
+      max-width: 200px;
+      margin-right: 10px;
+      &:last-of-type {
+        margin-right: 0;
+      }
+      &.double {
+        max-width: 400px;
+      }
+    }
+  }
 }
 
 mark {

@@ -3,15 +3,15 @@
 
 }
 /* Medium devices and below (small desktops) */
-@media (max-width: 1200px) { 
+@media (max-width: 1200px) {
 
 }
 /* Medium devices only (small desktops) */
-@media (max-width: 1200px) and (min-width: 992px) { 
+@media (max-width: 1200px) and (min-width: 992px) {
 
 }
 /* Small devices and below (tablets) */
-@media (max-width: 992px) { 
+@media (max-width: 992px) {
     .stores {
         .col-md-3:not(:last-child) img {
             margin-bottom: 25px;
@@ -19,8 +19,8 @@
     }
 }
 /* Small devices only (tablets) */
-@media (min-width: 768px) and (max-width: 992px) { 
-    
+@media (min-width: 768px) and (max-width: 992px) {
+
 }
 /* Only extra small devices (phones) */
 @media (max-width: 768px) {
@@ -49,9 +49,22 @@
             left: 0;
             top: 1%;
         }
-    } 
+    }
 
     main section .btn {
         font-size: 1em;
+    }
+
+    .padrinhos {
+      .text-left, .text-right {
+        text-align: center;
+      }
+      img {
+        margin-right: 0 !important;
+        margin-bottom: 10px;
+        &.double {
+          max-width: 100% !important;
+        }
+      }
     }
 }
