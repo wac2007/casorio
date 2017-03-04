@@ -140,7 +140,7 @@ module.exports.deploy = {
 
 // Images task config
 module.exports.images = {
-  src: path.join(app, images, '**/*.{gif,png,jpg}'),
+  src: path.join(app, images, '**/*.{gif,png,jpg,jpeg}'),
   srcSVG: path.join(app, images, '**/*.svg'),
   dest: dist + '/images',
   cfg: {
@@ -219,7 +219,7 @@ module.exports.styles = {
 
 // Templates task config
 module.exports.templates = {
-  
+
   src: path.join(app, views, '*.pug'),
   dest: tmp,
   destBuild: path.join(dist),
