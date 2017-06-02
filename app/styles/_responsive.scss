@@ -16,6 +16,12 @@
         .col-md-3:not(:last-child) img {
             margin-bottom: 25px;
         }
+        .lists {
+            a {
+                margin: 20px;
+                display: inline-block;
+            }
+        }
     }
 }
 /* Small devices only (tablets) */

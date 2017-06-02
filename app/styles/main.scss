@@ -46,9 +46,16 @@ main {
     .row {
       padding-top: 30px;
     }
-    img {
-      max-width: 150px;
-      max-height: 150px;
+    
+    .lists {
+      a {
+        margin: 20px;
+        display: inline-block;
+        img {
+          max-width: 150px;
+          max-height: 150px;
+        }
+      }
     }
   }
 
